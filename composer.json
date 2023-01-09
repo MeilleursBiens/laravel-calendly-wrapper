@@ -1,6 +1,7 @@
 {
     "name": "meilleursbiens/laravel-calendly-wrapper",
     "description": "PHP Calendly API (v2) Wrapper SDK for Laravel",
+    "version": "1.0.0",
     "keywords": [
         "laravel",
         "calendly",
