@@ -1,0 +1,40 @@
+{
+    "name": "meilleursbiens/laravel-calendly-wrapper",
+    "description": "PHP Calendly API (v2) Wrapper SDK for Laravel",
+    "keywords": [
+        "laravel",
+        "calendly",
+        "api",
+        "wrapper",
+        "sdk",
+        "rest",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MeilleursBiens",
+            "email": "tech@meilleursbiens.com"
+        }
+    ],
+    "require": {
+        "php": "^7",
+        "guzzlehttp/guzzle": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "MeilleursBiens\\Calendly\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MeilleursBiens\\Calendly\\CalendlyServiceProvider"
+            ],
+            "aliases": {
+                "Calendly": "MeilleursBiens\\Calendly\\Calendly"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
